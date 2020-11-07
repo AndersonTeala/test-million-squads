@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap');
+
+:root {
+    --color-back: #282a36;
+    --color-line: #44475a;
+    --color-selection: #44475a;
+    --color-selection: #f8f8f2;
+    --color-comment: #6272a4;
+    --color-cyan: #8be9fd;
+    --color-green: #50fa7b;
+    --color-orange: #ffb86c;
+    --color-pink: #ff79c6;
+    --color-purple: #bd93f9;
+    --color-red: #ff5555;
+    --color-yellow: #f1fa8c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    background-color: #030327;
+    text-align: center;
+}
+
+.menu {
+    padding:15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fefefe;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.top img {
+    width: 190px;
+}
+
+body {
+    background-color: #f8f8f2
+}
+
+.releases {
+    font-size: 32px;
+    text-align: center;
+    color: #030327;
+    padding: 14px;
+}
+
+.zaon {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.pnk {
+    background-color: #030327;
+    border-radius: 1%;
+    border: 5px solid #030327;
+}
+
+.container img {
+    width: 100%;
+    filter:  brightness(80%);
+}
+
+.squads,
+.class-content {
+    text-align: center;
+    padding: 5px;
+    color: #fefefe;
+}
+
+.squads p {
+    font-size: 28px;
+}
+
+.class-content {
+    padding: 5px;
+    font-size: 22px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer {
+    font-size: 14px;
+    color: #f8f8f2;
+    text-align: center;
+    padding: 20px;
+    background-color: #030327;
+}
+
+.footer p a {
+    text-decoration: none;
+    color: var(--color-full);
+    line-height: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
